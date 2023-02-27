@@ -1,0 +1,36 @@
+{
+  "name": "react-vendor",
+  "version": "0.0.1",
+  "main": "src/index",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "history": "^4.10.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-intl": "^6.0.4",
+    "react-redux": "^7.1.0",
+    "react-router": "^5.2.0",
+    "react-router-config": "^5.1.1",
+    "react-router-dom": "^5.2.0",
+    "react-router-redux": "^5.0.0-alpha.8",
+    "react-use": "^17.4.0",
+    "redux": "^4.0.5",
+    "redux-form": "^8.3.7",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.1.3"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
