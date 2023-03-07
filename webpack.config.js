@@ -2,25 +2,32 @@
 const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
+// react: 'React',
+// 'react-dom': 'ReactDOM',
+// redux: 'Redux',
+// 'react-redux': 'ReactRedux',
+// 'redux-saga': 'ReduxSaga',
+// 'react-router': 'ReactRouter',
+// history: 'HistoryLibrary',
+// 'react-router-config': 'ReactRouterConfig',
+// 'react-router-dom': 'ReactRouterDOM',
+// 'connected-react-router': 'ConnectedReactRouter',
+
 module.exports = {
   mode: 'production', //生产模式，对js等文件压缩，默认生成的是压缩文件
   entry: [
     //提前打包一些基本不怎么修改的文件
     'react',
     'react-dom',
-    'react-intl',
+    'redux',
     'react-redux',
+    'redux-saga',
+    'history',
     'react-router',
     'react-router-config',
     'react-router-dom',
     'react-router-redux',
-    'react-use',
-    'redux',
-    'redux-form',
-    'redux-persist',
-    'redux-saga',
-    'axios',
-    'history',
+    'connected-react-router',
   ],
   output: {
     // __dirname 表示webpack.config.js 这个配置文件的位置
