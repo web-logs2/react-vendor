@@ -1,0 +1,1 @@
+https://cdn.jsdelivr.net/gh/Bobobbb/react-vendor@0.0.2/dist/react-vendor-179.15f887e6.js
